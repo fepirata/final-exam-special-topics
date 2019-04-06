@@ -6,9 +6,9 @@ import ResultList from './components/Results';
 class App extends Component {
 
   state = {
-    inputTerm: "coffee",
-    inputCategory: "food",
-    inputCityLocation: "vancouver",
+    inputTerm: "",
+    inputCategory: "",
+    inputCityLocation: "",
     dataResult: null,
   };
 
